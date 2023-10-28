@@ -27,7 +27,9 @@ or using `git config`
 
 ## Making changes
 
-Since this is meant to be moved to $HOME, everyfile is .gitignored. To stage a file, git needs to be forced.
+Since this is meant to be moved to $HOME, every file is .gitignored. 
+
+To stage a file, git needs to be forced.
 
 ```sh
 git add -f $(PATH_TO_FILE)
