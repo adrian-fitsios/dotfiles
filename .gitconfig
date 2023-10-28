@@ -1,0 +1,5 @@
+[user]
+	email = adrian.soomro@gmail.com
+	name = adrian-soomro
+[pull]
+	rebase = false
