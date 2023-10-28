@@ -16,7 +16,7 @@ git checkout -f main
 ```
 
 2) (optional) if you find this config useful and want to use it for yourself, change the .gitconfig
-either wiht your favourite text editor - e.g. `nvim ~/.gitconfig`
+either with your favourite text editor - e.g. `nvim ~/.gitconfig`
 
 or using `git config`
 
