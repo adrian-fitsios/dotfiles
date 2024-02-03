@@ -116,3 +116,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# make vcXsrv work with WSL
+export DISPLAY="$(/sbin/ip route | awk '/default/ { print $3 }'):0"
