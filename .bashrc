@@ -117,4 +117,6 @@ if ! shopt -oq posix; then
 fi
 
 # make vcXsrv work with WSL
-export DISPLAY="$(/sbin/ip route | awk '/default/ { print $3 }'):0"
+if [[ $(grep -i Microsoft /proc/version) ]]; then
+  export DISPLAY="$(/sbin/ip route | awk '/default/ { print $3 }'):0"
+fi
