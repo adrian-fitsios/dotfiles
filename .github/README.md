@@ -10,7 +10,7 @@ Inspired by [Drew DeVault's blog](https://drewdevault.com/), more specifically, 
 
 cd ~
 git init
-git remote add origin git@github.com:adrian-soomro/dotfiles.git # if you're using https auth method, replace this line with `git remote add origin https://github.com/adrian-soomro/dotfiles.git`
+git remote add origin git@github.com:adrian-fitsios/dotfiles.git # if you're using https auth method, replace this line with `git remote add origin https://github.com/adrian-fitsios/dotfiles.git`
 git fetch
 git checkout -f main
 ```
